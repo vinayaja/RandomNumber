@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2022-01-24T14:06:44.3038727Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2022-01-24T14:16:04.8028308Z"
+    }
+  },
+  "parameters": {
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-RandomNumber"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-RandomNumber"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "5ed654b5-8bde-4b1a-be4e-84d46d3924f3"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "5ed654b5-8bde-4b1a-be4e-84d46d3924f3"
+    }
+  }
+}
