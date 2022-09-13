@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomNumber", "RandomNumber.csproj", "{A20B55C5-DD66-4A38-900F-D5D31689A5D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "\TestProject1\TestProject1.csproj", "{A6B44B06-B3A5-4685-9A65-29AA4EBC501B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{A6B44B06-B3A5-4685-9A65-29AA4EBC501B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A20B55C5-DD66-4A38-900F-D5D31689A5D0} = {A20B55C5-DD66-4A38-900F-D5D31689A5D0}
 	EndProjectSection
