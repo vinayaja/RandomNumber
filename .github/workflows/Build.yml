@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ${{ github.workspace }}\RandomNumber\RandomNumber.csproj
+      run: dotnet restore ${{ github.workspace }}\RandomNumber.sln
     - name: Build
-      run: dotnet build ${{ github.workspace }}\RandomNumber\RandomNumber.csproj --configuration Release --output ${{ github.workspace }}/publish_output
+      run: dotnet build ${{ github.workspace }}\RandomNumber.sln --configuration Release --output ${{ github.workspace }}/publish_output
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.0
       with:
