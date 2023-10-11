@@ -4,8 +4,9 @@ WORKDIR /source
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
+COPY *.csproj . 
 COPY *.csproj ./RandomNumber/
-RUN dotnet restore ./RandomNumber.sln
+RUN dotnet restore
 
 # copy everything else and build app
 COPY * ./RandomNumber/
