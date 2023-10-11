@@ -11,7 +11,7 @@ RUN dotnet restore
 # copy everything else and build app
 COPY * ./RandomNumber/
 WORKDIR /source/RandomNumber
-RUN dotnet publish RandomNumber.csproj -c release -o /app --no-restore
+RUN dotnet publish RandomNumber.csproj -c release -o /app
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
