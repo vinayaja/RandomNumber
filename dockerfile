@@ -4,11 +4,11 @@ WORKDIR /source
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY RandomNumber/*.csproj ./RandomNumber/
+COPY *.csproj ./RandomNumber/
 RUN dotnet restore
 
 # copy everything else and build app
-COPY RandomNumber/. ./RandomNumber/
+COPY * ./RandomNumber/
 WORKDIR /source/RandomNumber
 RUN dotnet publish -c release -o /app --no-restore
 
